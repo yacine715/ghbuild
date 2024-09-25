@@ -1,0 +1,60 @@
+{
+    "sha": "b3f2a4bb6fb55f6b1b1e890cdd6332665cfe4a75",
+    "node_id": "C_kwDOAASartoAKGIzZjJhNGJiNmZiNTVmNmIxYjFlODkwY2RkNjMzMjY2NWNmZTRhNzU",
+    "commit": {
+        "author": {
+            "name": "Ben Darnell",
+            "email": "ben@bendarnell.com",
+            "date": "2023-11-29T03:18:59Z"
+        },
+        "committer": {
+            "name": "GitHub",
+            "email": "noreply@github.com",
+            "date": "2023-11-29T03:18:59Z"
+        },
+        "message": "Merge pull request #3352 from bdarnell/master\n\nSet version to 6.4 final",
+        "tree": {
+            "sha": "10fa3cc2a330989f0895202370828eb019debaf3",
+            "url": "https://api.github.com/repos/tornadoweb/tornado/git/trees/10fa3cc2a330989f0895202370828eb019debaf3"
+        },
+        "url": "https://api.github.com/repos/tornadoweb/tornado/git/commits/b3f2a4bb6fb55f6b1b1e890cdd6332665cfe4a75",
+        "comment_count": 0,
+        "verification": {
+            "verified": true,
+            "reason": "valid",
+            "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlZq2jCRBK7hj4Ov3rIwAAutMIAH2fe7J+CTC2a8d1ZaOcqLW7\nWyNJMFe6Hv7bKXOGIDNhdK30ESFhSl0rk1VGlZkhIEjEPwKYFfaiaxoXLIKIitW6\nS7D2eH2bhvkLvmr+qNjNV3iJnWBQxYEtG5vFOO7gRUx5bKd0HEcSr1hp4FEnntiQ\n80vQPnKiAlRkdPArcW4Use8Fui27z5lGw8NPAe2anru2CYwDfF20gAlUWgc0xElq\n3MoBcYR9CDXL1b64uHp1l2E2HIIVanUkT+KQwxib96XrWoqKhQF6sMAkeNt7vnqK\nGEY79M4h2DxwTEXImtYbNWcECLTp/h7MveWaGps9xFoZ+gs3LoE2ATJ9dtL9vPM=\n=9BZU\n-----END PGP SIGNATURE-----\n",
+            "payload": "tree 10fa3cc2a330989f0895202370828eb019debaf3\nparent 5a877238ed1c2ce7a58f2568c52c3eb0fffe8064\nparent 451419c1c7c431d4362fd6d6ed36227a1d52f32c\nauthor Ben Darnell <ben@bendarnell.com> 1701227939 -0500\ncommitter GitHub <noreply@github.com> 1701227939 -0500\n\nMerge pull request #3352 from bdarnell/master\n\nSet version to 6.4 final"
+        }
+    },
+    "stats": {
+        "total": 8,
+        "additions": 4,
+        "deletions": 4
+    },
+    "files": [
+        {
+            "sha": "d1e099a2dfa0b7fdde6a465e7039fab1bcf2c880",
+            "filename": "docs/releases/v6.4.0.rst",
+            "status": "modified",
+            "additions": 2,
+            "deletions": 2,
+            "changes": 4,
+            "blob_url": "https://github.com/tornadoweb/tornado/blob/b3f2a4bb6fb55f6b1b1e890cdd6332665cfe4a75/docs%2Freleases%2Fv6.4.0.rst",
+            "raw_url": "https://github.com/tornadoweb/tornado/raw/b3f2a4bb6fb55f6b1b1e890cdd6332665cfe4a75/docs%2Freleases%2Fv6.4.0.rst",
+            "contents_url": "https://api.github.com/repos/tornadoweb/tornado/contents/docs%2Freleases%2Fv6.4.0.rst?ref=b3f2a4bb6fb55f6b1b1e890cdd6332665cfe4a75",
+            "patch": "@@ -1,8 +1,8 @@\n What's new in Tornado 6.4.0\n ===========================\n \n-In Progress\n------------\n+Nov 28, 2023\n+------------\n \n General Changes\n ~~~~~~~~~~~~~~~"
+        },
+        {
+            "sha": "a0ae714d3ed0fde0adfe2766b44bb252a6f689d8",
+            "filename": "tornado/__init__.py",
+            "status": "modified",
+            "additions": 2,
+            "deletions": 2,
+            "changes": 4,
+            "blob_url": "https://github.com/tornadoweb/tornado/blob/b3f2a4bb6fb55f6b1b1e890cdd6332665cfe4a75/tornado%2F__init__.py",
+            "raw_url": "https://github.com/tornadoweb/tornado/raw/b3f2a4bb6fb55f6b1b1e890cdd6332665cfe4a75/tornado%2F__init__.py",
+            "contents_url": "https://api.github.com/repos/tornadoweb/tornado/contents/tornado%2F__init__.py?ref=b3f2a4bb6fb55f6b1b1e890cdd6332665cfe4a75",
+            "patch": "@@ -22,8 +22,8 @@\n # is zero for an official release, positive for a development branch,\n # or negative for a release candidate or beta (after the base version\n # number has been incremented)\n-version = \"6.4b1\"\n-version_info = (6, 4, 0, -99)\n+version = \"6.4\"\n+version_info = (6, 4, 0, 0)\n \n import importlib\n import typing"
+        }
+    ]
+}
