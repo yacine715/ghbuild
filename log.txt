@@ -1,11 +1,23 @@
-xgboost_test.py log:
+[5 rows x 49 columns]
+duration_class
+Medium    53
+Fast      25
+Slow      22
+Name: count, dtype: int64
+Best parameters: {'metric': 'euclidean', 'n_neighbors': 10, 'weights': 'uniform'}
+Best cross-validation accuracy: 0.7
+C:\Program Files\Python312\Lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+KNN Accuracy on test set: 0.70
+KNN Precision on test set: 0.66
+KNN Recall on test set: 0.70
+KNN F1 Score on test set: 0.64
+Confusion Matrix:
+ [[ 4  3  0]
+ [ 0 10  0]
+ [ 0  3  0]]
 
-Series([], dtype: int64)
-C:\Users\jasem\AppData\Local\Programs\Python\Python310\lib\site-packages\numpy\ma\core.py:2820: RuntimeWarning: invalid value encountered in cast
-  _data = np.array(data, dtype=dtype, copy=copy,
-Best parameters: {'colsample_bytree': 1.0, 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 3, 'n_estimators': 900, 'subsample': 0.8}
-XGBOOST RMSE (45,042)
-Mean R² across folds: 0.9431411761835152
+Process finished with exit code 0
                              Feature    Importance
 42                   year_updated_at  9.716060e-01
 38                   year_created_at  1.003361e-02
@@ -40,13 +52,3 @@ Mean R² across folds: 0.9431411761835152
 
 
 ------------------------------------------------------------------------------------------------------------------------
-
-knn_test.py log:
-
-
-Series([], dtype: int64)
-Best parameters: {'metric': 'manhattan', 'n_neighbors': 3, 'weights': 'uniform'}
-Best cross-validation score (negative MSE): -609189288555.1259
-KNN RMSE (42,892)
-Mean R² across folds: 0.8904059362570805
-PS C:\Users\jasem\Desktop\yacin-code>
